@@ -15,11 +15,17 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 DEVELPED BY:NAKUL R
+
 REGISTER NUMBER:212223240102
+
 import numpy as np
+
 A=np.array([[1,3],[3,1]])
+
 B=np.array([0,10])
+
 result=np.linalg.solve(A,B)
+
 print(result)
 
 ## Output:
